@@ -1,1 +1,23 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.message__content {
+  font-size: 0.9rem;
+}
+
+.message--unread {
+  border-left: 2px solid blue;
+}
+
+.message--old {
+  opacity: 0.3;
+}
+
+.message {
+  line-height: 3;
+}
