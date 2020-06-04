@@ -1,1 +1,40 @@
 /* Add your own CSS code below */
+@media only screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .view-list__item,
+  .views__all {
+    margin: 10px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+  line-height: 1.7em;
+}
+
+.main-article {
+  max-width: 50em;
+}
